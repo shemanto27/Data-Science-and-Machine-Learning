@@ -16,6 +16,7 @@ def about():
 def welcome(name):
     return f"Welcome, {name}!"
 
+# Path Parameter Integer
 
 @app.route("/welcome_2/<int:num>")
 def welcome_2(num):
